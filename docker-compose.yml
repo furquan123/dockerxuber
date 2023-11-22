@@ -1,0 +1,11 @@
+version: '3'
+services:
+  train:
+    image: fk23/ubertrain:v1
+    ports:
+      - "8000:80"
+
+  movie:
+    image: fk23/ubermovie:v1
+    ports:
+      - "8001:80"    
